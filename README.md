@@ -1,5 +1,76 @@
 # 🚨 AI-Powered AML Transaction Monitoring & Risk Scoring System
 
+# What is Anti Money Laundering (AML)?
+  Anti-Money Laundering (AML) is the process of detecting and preventing criminals from making illegal money look legal.
+
+Example:
+
+A drug dealer earns ₹10 crore illegally.
+He cannot directly put this money in a bank.
+
+So he may:
+
+split money into many small deposits
+create fake companies
+send money across countries
+use crypto
+create fake invoices
+route money through multiple bank accounts
+
+Goal: make “dirty money” look “clean”.
+
+This is called money laundering.
+
+AML systems try to detect this.
+
+# Real-world Money Laundering Process 
+1) Illegal money enters system.
+2) Hide money trail. (India → Dubai → Singapore → shell company → crypto wallet) Tracking becomes hard.
+3) Money becomes “clean”
+
+# Who Needs AML?
+1)Banks
+2)Fintech companies
+3)Crypto Exchanges
+4) Government regulators
+
+## Real-time Problems Faced in AML
+ # a) Problem 1: Huge transaction volume
+
+Big banks process millions of transactions daily.
+
+Example:
+
+10 million+ transactions/day
+# b) Problem 2: Too many false positives
+  System flags normal users.
+# c) Problem 3: Criminal behavior changes
+  Static rules fail.
+
+Example:
+
+Rule:
+Flag transactions > ₹10 lakh
+
+Criminal sends:
+
+₹9.9 lakh repeatedly.
+
+Rule bypassed.
+
+## What Features AML Teams Want
+   Core product requirements:
+
+Detection Engine
+
+Detect suspicious transactions.
+
+Examples:
+
+unusual transaction size
+frequent transfers
+velocity spikes
+
 ## 📌 Project Overview
 
 Financial institutions process millions of transactions daily, making manual fraud detection inefficient and costly.  
